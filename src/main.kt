@@ -13,7 +13,7 @@ fun evenNumber(fruit:String):String{
     var x=" "
     for (n in fruit){
         if (fruit.indexOf(n)%2==0){
-            x+=n
+            x++
         }
     }
     return x
